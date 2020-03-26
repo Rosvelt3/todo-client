@@ -5,7 +5,7 @@ import { IonGrid, IonRow, IonCol } from '@ionic/react';
 import axios from 'axios';
 
 const Todos = () => {
-  const api = "https://localhost:5001/api/todos/";
+  const api = "https://polar-scrubland-76573.herokuapp.com/api/todos/";
 
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState({
